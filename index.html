@@ -129,6 +129,38 @@
     .contact .contact-form .send-btn:hover {
       background-color: #0097a7;
     }
+
+    /* Resume Section */
+    .resume {
+      padding: 40px 20px;
+      text-align: center;
+      background: #1f1f1f;
+      color: #fff;
+    }
+
+    .resume h2 {
+      margin-bottom: 20px;
+      color: #00bcd4;
+    }
+
+    .resume p {
+      margin-bottom: 20px;
+    }
+
+    .resume a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #00bcd4;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .resume a:hover {
+      background-color: #0097a7;
+    }
   </style>
 </head>
 <body>
@@ -172,7 +204,7 @@
   <div class="content">
     <div class="column col-left reveal">
       <div class="img-card">
-        <img src="Image/img1.jpg" alt="Pavan Image"/>
+        <img src="img1.jpg" alt="Pavan Image"/>
       </div>
     </div>
     <div class="column col-right reveal">
@@ -280,6 +312,15 @@
   </div>
 </section>
 
+<!-- Resume Section (Moved Above Contact) -->
+<section class="resume" id="resume">
+  <h2>Resume</h2>
+  <p>Click the button below to download or view my resume.</p>
+  <a href="UPDATED_RESUME.PDF" download="UPDATED_RESUME.pdf" class="btn">Download Resume</a>
+  <a href="UPDATED_RESUME.PDF" target="_blank" class="btn">View Resume</a>
+</section>
+
+<!-- Contact Section -->
 <section class="contact" id="contact">
   <div class="title reveal">
     <h2 class="section-title">Contact Me</h2>
@@ -303,7 +344,7 @@
           </div>
         </form>
         <!-- Success Message -->
-        <p id="successMessage" style="display: none; color: green; text-align: center;">sent successfully!I Will contact you soon </p>
+        <p id="successMessage" style="display: none; color: green; text-align: center;">sent successfully! I Will contact you soon </p>
       </div>
     </div>
   </div>
@@ -311,7 +352,7 @@
 
 <footer class="footer">
   <span class="footer-title">G Pavan Kumar</span>
-  <p>&copy; 2025 <a>Pavan IT Solutions</a>. All Rights Reserved.</p>
+  <p>© 2025 <a>Pavan IT Solutions</a>. All Rights Reserved.</p>
 </footer>
 
 <!-- Scroll-to-top Button -->
